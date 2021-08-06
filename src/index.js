@@ -1,19 +1,16 @@
-import { saludar } from './js/componentes.js';
-import './style.css';
+import { obtenerUsuarios } from "./js/http-provider";
+// import { init } from "./js/chistes-page";
+import { init } from "./js/usuarios-page";
 
-// import webpacklogo from './assets/img/webpack-logo.png';
+init();
 
-const nombre = 'Luis';
+// obtenerChiste().then( console.log );
 
-saludar( nombre );
+// obtenerUsuarios().then( console.log );
 
-// const imprimir = () => {
-//     //img
-//     console.log(webpacklogo);
-//     const img = document.createElement('img');
-//     img.src = webpacklogo;
-//     document.body.append( img );
+// init();
 
-// };
 
-// imprimir();
+
+
+
